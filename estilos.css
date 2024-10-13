@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 body {
     margin: 0;
@@ -6,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #181C14;
 }
 
 h1 {
@@ -14,13 +16,17 @@ h1 {
     margin-top: 20px;
     font-size: 27px;
     margin-bottom: 50px;
+    text-shadow: 2px 2px 5px white;
 }
 
 .contenedor-formulario {
     display: flex;
     justify-content: center;
     align-items: center;
-    /*width: 100%;*/
+    padding: 1rem;
+    border-image: linear-gradient(to right, #ffe700 0%, #f57d1f 100%) 1;
+    border-width: 4px;
+    border-style: solid;
 }
 
 form {
@@ -28,5 +34,46 @@ form {
     flex-direction: column;
     gap: 10px;
     padding: 20px;
-    background-color: white;
+    background-color: #181C14;
+    color: #FFF;
+}
+
+.numero {
+    background: transparent;
+    color: #FFF;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.boton1 {
+    background: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+}
+
+.boton2 {
+    background: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #fff; 
+}
+
+.output {
+    background: transparent;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.titulo2 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15 px;
 }
